@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090912">
+  <meta name="description" content="Otaku Garden is a friendly anime community. Join us for events, discussions, games and new friends.">
+  <title>Otaku Garden | Anime Community</title>
+  <style>
+    :root{
+      --bg:#090912;--panel:#121222;--panel2:#19192d;--text:#f4f1ff;
+      --muted:#aaa6c2;--accent:#a78bfa;--accent2:#67e8f9;--line:#292842;
+      --shadow:0 18px 55px rgba(0,0,0,.35)
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(ellipse at 80% 0%,rgba(124,58,237,.17),transparent 34%),radial-gradient(ellipse at 0% 35%,rgba(34,211,238,.08),transparent 28%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    button{font:inherit}
+    .wrap{width:min(1120px,calc(100% - 36px));margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(9,9,18,.82);backdrop-filter:blur(16px);border-bottom:1px solid rgba(167,139,250,.14)}
+    .nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{font-weight:850;letter-spacing:.3px;display:flex;align-items:center;gap:10px}
+    .brand-mark{width:36px;height:36px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,#8b5cf6,#22d3ee);color:#090912;box-shadow:0 0 25px #8b5cf644}
+    .links{display:flex;gap:22px;align-items:center;color:var(--muted);font-size:.93rem}
+    .links a:hover{color:var(--text)}
+    .menu{display:none;background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:8px 12px}
+    .btn{border:0;border-radius:13px;padding:12px 18px;font-weight:750;display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;transition:.2s transform,.2s filter}
+    .btn:hover{transform:translateY(-2px);filter:brightness(1.1)}
+    .primary{background:linear-gradient(110deg,#a78bfa,#67e8f9);color:#090912;box-shadow:0 10px 30px #8b5cf633}
+    .secondary{background:var(--panel2);border:1px solid var(--line);color:var(--text)}
+    .hero{padding:94px 0 76px;text-align:center;position:relative;overflow:hidden}
+    .eyebrow{display:inline-flex;gap:8px;align-items:center;border:1px solid #a78bfa55;background:#a78bfa12;color:#d8ccff;border-radius:99px;padding:6px 13px;font-size:.82rem}
+    h1{font-size:clamp(2.7rem,8vw,5.6rem);line-height:1.04;letter-spacing:-.055em;margin:22px 0 18px}
+    .gradient{background:linear-gradient(100deg,#c4b5fd,#67e8f9);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .hero p{max-width:650px;margin:0 auto 28px;color:var(--muted);font-size:1.08rem}
+    .actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+    .tiny{font-size:.82rem;color:var(--muted);margin-top:18px}
+    .glow{position:absolute;width:280px;height:280px;border-radius:50%;filter:blur(90px);opacity:.16;pointer-events:none}
+    .g1{background:#8b5cf6;top:20px;left:-140px}.g2{background:#22d3ee;right:-140px;bottom:0}
+    section{padding:62px 0}
+    .section-head{text-align:center;margin-bottom:28px}
+    .section-head h2{font-size:clamp(1.8rem,5vw,2.6rem);margin:0 0 8px;letter-spacing:-.03em}
+    .section-head p{color:var(--muted);margin:0}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{background:linear-gradient(145deg,rgba(25,25,45,.94),rgba(15,15,27,.94));border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:var(--shadow)}
+    .card .icon{font-size:1.65rem}
+    .card h3{margin:10px 0 5px}
+    .card p{margin:0;color:var(--muted);font-size:.95rem}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
+    .rule-list{display:grid;gap:10px}
+    details{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+    summary{cursor:pointer;font-weight:700}
+    details p{color:var(--muted);margin:9px 0 0}
+    .event-tools{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+    .filter{border:1px solid var(--line);background:var(--panel);color:var(--muted);padding:8px 14px;border-radius:99px;cursor:pointer}
+    .filter.active{background:#a78bfa20;border-color:#a78bfa;color:#e8ddff}
+    .event-card{display:flex;flex-direction:column;gap:9px}
+    .tag{font-size:.75rem;color:#c4b5fd;text-transform:uppercase;letter-spacing:.09em;font-weight:800}
+    .event-card .event-note{color:var(--muted);font-size:.9rem}
+    .callout{display:flex;justify-content:space-between;align-items:center;gap:22px;background:linear-gradient(115deg,#21183c,#102333);border:1px solid #55458a;border-radius:24px;padding:28px}
+    .callout h2{margin:0 0 6px}.callout p{margin:0;color:#c4bfd8}
+    .staff-note{color:var(--muted);font-size:.9rem}
+    footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.88rem}
+    .foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    #toast{position:fixed;bottom:20px;left:50%;transform:translate(-50%,20px);opacity:0;background:#eee9ff;color:#171326;padding:10px 16px;border-radius:12px;font-weight:750;z-index:30;transition:.25s;pointer-events:none}
+    #toast.show{opacity:1;transform:translate(-50%,0)}
+    .hidden{display:none!important}
+    @media(max-width:760px){
+      .links{display:none;position:absolute;top:72px;left:0;right:0;padding:18px;background:#0e0e1b;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch}
+      .links.open{display:flex}.menu{display:block}.nav-join{display:none}
+      .hero{padding:72px 0 58px}.grid{grid-template-columns:1fr}.split{grid-template-columns:1fr}
+      .callout{align-items:flex-start;flex-direction:column}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home"><span class="brand-mark">✦</span> OTAKU GARDEN</a>
+    <nav class="links" id="navLinks" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#events">Events</a><a href="#rules">Rules</a><a href="#partners">Partnerships</a>
+      <a href="#join">Join us</a>
+    </nav>
+    <div style="display:flex;gap:9px;align-items:center">
+      <a class="btn primary nav-join" href="#join">Join Discord ↗</a>
+      <button class="menu" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <span class="glow g1"></span><span class="glow g2"></span>
+    <div class="wrap">
+      <div class="eyebrow">✧ YOUR NEXT ANIME HANGOUT ✧</div>
+      <h1>Find your people.<br><span class="gradient">Enter Otaku Garden.</span></h1>
+      <p>A community for anime fans, late-night conversations, fun events, games and new friendships. Come hang out and make yourself at home.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://discord.gg/xfns5zAm8Q" target="_blank" rel="noopener">Join the Discord ↗</a>
+        <a class="btn secondary" href="#about">Explore the garden ↓</a>
+      </div>
+      <div class="tiny">Anime • Friends • Events • Good vibes</div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head"><h2>A little about us</h2><p>More than a server. A place to find your corner of the community.</p></div>
+      <div class="grid">
+        <article class="card"><div class="icon">🍿</div><h3>Anime talk</h3><p>Share what you're watching, trade recommendations and debate your favourite characters.</p></article>
+        <article class="card"><div class="icon">🎮</div><h3>Games & hangouts</h3><p>Take a break with community games, casual chats and watch-together moments.</p></article>
+        <article class="card"><div class="icon">🎉</div><h3>Community events</h3><p>Join polls, challenges, themed activities and server-wide events.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="events">
+    <div class="wrap">
+      <div class="section-head"><h2>Community activities</h2><p>Pick a vibe and see what we get up to.</p></div>
+      <div class="event-tools" role="group" aria-label="Filter activities">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="anime">Anime</button>
+        <button class="filter" data-filter="games">Games</button>
+        <button class="filter" data-filter="community">Community</button>
+      </div>
+      <div class="grid" id="eventGrid">
+        <article class="card event-card" data-category="anime"><span class="tag">Anime</span><h3>Anime Showdown</h3><p class="event-note">Vote for favourites and see which series takes the crown.</p></article>
+        <article class="card event-card" data-category="games"><span class="tag">Games</span><h3>Quick-fire games</h3><p class="event-note">Jump into fun mini challenges with other members.</p></article>
+        <article class="card event-card" data-category="community"><span class="tag">Community</span><h3>Question of the day</h3><p class="event-note">A fresh conversation starter for everyone to answer.</p></article>
+      </div>
+      <p class="staff-note" style="text-align:center;margin-top:16px">These are activity ideas, not a live event schedule. Check Discord for confirmed dates.</p>
+    </div>
+  </section>
+
+  <section id="rules">
+    <div class="wrap">
+      <div class="section-head"><h2>Keep the community comfy</h2><p>A few simple rules help everyone enjoy their time here.</p></div>
+      <div class="split">
+        <div class="card">
+          <h3>🌿 The basics</h3>
+          <p>Be respectful, keep conversations welcoming and give everyone room to enjoy the server.</p>
+          <p style="margin-top:12px">Staff may step in when rules are ignored. Repeated issues can lead to moderation action.</p>
+        </div>
+        <div class="rule-list">
+          <details open><summary>Be kind and respectful</summary><p>No harassment, hate, bullying or deliberately starting fights.</p></details>
+          <details><summary>Keep content appropriate</summary><p>Use the right channels and follow Discord's rules. Do not post inappropriate or unsafe content.</p></details>
+          <details><summary>Respect privacy</summary><p>No spam, unwanted DMs, sharing private information or pressuring members.</p></details>
+          <details><summary>Listen to the staff team</summary><p>Follow moderator instructions and use the proper channels if you need help.</p></details>
+        </div>
+      </div>
+      <p class="staff-note">Please check the full, current rules inside the Discord server. The website summary does not replace them.</p>
+    </div>
+  </section>
+
+  <section id="partners">
+    <div class="wrap">
+      <div class="callout">
+        <div><h2>Grow together 🤝</h2><p>Interested in partnering with Otaku Garden? Reach out to our staff team on Discord.</p></div>
+        <a class="btn secondary" href="https://discord.gg/xfns5zAm8Q" target="_blank" rel="noopener">Partnership enquiries ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="join">
+    <div class="wrap">
+      <div class="section-head"><h2>Your seat is waiting</h2><p>Drop by, say hello and meet the community.</p></div>
+      <div class="actions">
+        <a class="btn primary" href="https://discord.gg/xfns5zAm8Q" target="_blank" rel="noopener">Join Otaku Garden ↗</a>
+        <button class="btn secondary" id="copyInvite">Copy invite link ⧉</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot"><span>✦ Otaku Garden</span><span>Made for the community • <span id="year"></span></span></div>
+</footer>
+<div id="toast" role="status" aria-live="polite">Invite copied!</div>
+<script>
+  // Change this one value if your Discord invite changes.
+  const INVITE_URL = "https://discord.gg/xfns5zAm8Q";
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  const menuBtn = document.getElementById("menuBtn");
+  const navLinks = document.getElementById("navLinks");
+  menuBtn.addEventListener("click", () => {
+    const isOpen = navLinks.classList.toggle("open");
+    menuBtn.setAttribute("aria-expanded", String(isOpen));
+    menuBtn.textContent = isOpen ? "✕" : "☰";
+  });
+  navLinks.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
+    navLinks.classList.remove("open");
+    menuBtn.setAttribute("aria-expanded", "false");
+    menuBtn.textContent = "☰";
+  }));
+
+  document.querySelectorAll(".filter").forEach(button => {
+    button.addEventListener("click", () => {
+      document.querySelectorAll(".filter").forEach(item => item.classList.remove("active"));
+      button.classList.add("active");
+      const filter = button.dataset.filter;
+      document.querySelectorAll(".event-card").forEach(card => {
+        card.classList.toggle("hidden", filter !== "all" && card.dataset.category !== filter);
+      });
+    });
+  });
+
+  const toast = document.getElementById("toast");
+  let toastTimer;
+  function showToast(message) {
+    toast.textContent = message;
+    toast.classList.add("show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove("show"), 2200);
+  }
+  document.getElementById("copyInvite").addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(INVITE_URL);
+      showToast("Discord invite copied!");
+    } catch (error) {
+      showToast("Copy unavailable. Use the Join Discord link.");
+    }
+  });
+</script>
+</body>
+</html>
