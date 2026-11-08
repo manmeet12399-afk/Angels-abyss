@@ -1,0 +1,24 @@
+{
+  "servers": [],
+  "videos": [],
+  "events": [
+    {
+      "t": "Anime watch party",
+      "d": "2026-11-21T19:00:00Z",
+      "k": "Watch party",
+      "s": "Vote on the episode in the events channel."
+    },
+    {
+      "t": "Art & edit contest",
+      "d": "2026-11-28T17:00:00Z",
+      "k": "Contest",
+      "s": "Share your best piece for a chance at prizes."
+    },
+    {
+      "t": "Winter giveaway",
+      "d": "2026-12-20T18:00:00Z",
+      "k": "Giveaway",
+      "s": "Drops, prizes and a chat revive."
+    }
+  ]
+}
