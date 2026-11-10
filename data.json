@@ -258,7 +258,14 @@
     "avatar": "red-horns",
     "banner": "manga-eyes"
   },
-  "partners": [],
+  "partners": [
+    {
+      "invite": "https://discord.gg/zh252qXaAf",
+      "name": "",
+      "note": " ☆  We are a catboy themed server dedicated to catboys and catboy lovers. We are a active, non toxic and sfw server. Join us for sotd, qotd, weekly catboy, catboy asmr, fun events, and more!   ≽(˵◝ ⩊  ◜˵ マ≼",
+      "img": ""
+    }
+  ],
   "partnerReq": [
     "Friendly, welcoming community",
     "Active members and staff",
