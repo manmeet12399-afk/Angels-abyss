@@ -264,10 +264,10 @@
   },
   "partners": [
     {
-      "invite": "",
-      "name": "",
-      "note": "",
-      "img": ""
+      "invite": "https://discord.gg/rGHjJTwRn",
+      "name": "🐉TRUE DRAGON DOMAIN ",
+      "note": "Join there server also 🙂,he is my brother ",
+      "img": "up-mwa5tycm"
     }
   ],
   "partnerReq": [
@@ -300,6 +300,10 @@
     {
       "k": "up-mwa5b3s6",
       "u": "assets/up-mwa5b3s6.jpg"
+    },
+    {
+      "k": "up-mwa5tycm",
+      "u": "assets/up-mwa5tycm.jpg"
     }
   ]
 }
