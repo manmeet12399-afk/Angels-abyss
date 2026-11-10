@@ -17,7 +17,7 @@
     "partnerBtn": "Become a partner",
     "partnerLink": "",
     "partnerText": "We’re always happy to connect with friendly communities. Contact our partnership team on Discord to talk about working together.",
-    "joinTitle": "Join Anime Paradox",
+    "joinTitle": "Join Anime Paradox, or reze will not like it",
     "joinSub": "Hang out, meet new people, and grow with us.",
     "footer": "© Anime Paradox · Let’s grow together"
   },
@@ -265,7 +265,8 @@
   "partnerReq": [
     "Friendly, welcoming community",
     "Active members and staff",
-    "No hate, harassment or NSFW"
+    "No hate, harassment or NSFW",
+    "50+Members "
   ],
   "uploads": [
     {
