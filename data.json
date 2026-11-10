@@ -257,7 +257,12 @@
     "Active members and staff",
     "No hate, harassment or NSFW"
   ],
-  "uploads": [],
+  "uploads": [
+    {
+      "k": "up-mwakmmru",
+      "u": "assets/up-mwakmmru.jpg"
+    }
+  ],
   "rules": [
     {
       "t": "Be kind and respectful",
@@ -384,7 +389,8 @@
     "rules",
     "faq",
     "grow",
-    "partner"
+    "partner",
+    "blk-bmwaklbnp"
   ],
   "fx": {
     "trail": "yes",
@@ -398,5 +404,17 @@
     "desc": "",
     "url": ""
   },
-  "blocks": []
+  "blocks": [
+    {
+      "id": "bmwaklbnp",
+      "title": "Also Join",
+      "text": "Also join true dragon domain from our network 😀",
+      "img": "up-mwakmmru",
+      "layout": "left",
+      "btn": "",
+      "link": "",
+      "nav": "no",
+      "show": "yes"
+    }
+  ]
 }
