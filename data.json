@@ -1,0 +1,396 @@
+{
+  "site": {
+    "invite": "xfns5zAm8Q"
+  },
+  "text": {
+    "name": "Angels Abyss",
+    "tag": "General chat & mini anime server",
+    "headline": "Hang out, meet people, grow together",
+    "sub": "A general chat and mini anime server with a 24/7 radio, regular events and a staff that keeps things friendly.",
+    "featTitle": "What we offer",
+    "featSub": "Everything you need to chat, watch, create and relax in one place.",
+    "growTitle": "Grow together",
+    "grow1": "🕯️ Supporting each other’s communities",
+    "grow2": "🔥 Building new friendships",
+    "grow3": "🖤 A friendly, welcoming environment",
+    "partnerTitle": "Partner with us 🤝",
+    "partnerBtn": "Become a partner",
+    "partnerLink": "",
+    "partnerText": "We’re always happy to connect with friendly communities. Contact our partnership team on Discord to talk about working together.",
+    "joinTitle": "Join Angels Abyss",
+    "joinSub": "Hang out, meet new people, and grow with us.",
+    "footer": "© Angels Abyss · Let’s grow together",
+    "pageTitle": ""
+  },
+  "images": {
+    "hero": "",
+    "grow": "",
+    "join": "",
+    "bg": ""
+  },
+  "minis": [
+    {
+      "k": "Always on",
+      "t": "24/7 Radio",
+      "img": "red-glitch",
+      "href": "#radio"
+    },
+    {
+      "k": "Every week",
+      "t": "Events & Giveaways",
+      "img": "red-wings",
+      "href": "#events"
+    },
+    {
+      "k": "Made for us",
+      "t": "Custom Bot",
+      "img": "spider-boy",
+      "href": "#features"
+    }
+  ],
+  "features": [
+    {
+      "i": "🎵",
+      "t": "24/7 Radio",
+      "d": "Play whatever you want, anytime."
+    },
+    {
+      "i": "💬",
+      "t": "Dead chat? Not here.",
+      "d": "Chat revive events and active vibes."
+    },
+    {
+      "i": "🤖",
+      "t": "Our own custom bot",
+      "d": "Made just for the server."
+    },
+    {
+      "i": "🎮",
+      "t": "Game & movie nights",
+      "d": "Anime, gaming and watch parties."
+    },
+    {
+      "i": "🎨",
+      "t": "Art & edit contests",
+      "d": "Show off your creativity and win prizes."
+    },
+    {
+      "i": "🎁",
+      "t": "Giveaways & events",
+      "d": "Regular drops and fun challenges."
+    },
+    {
+      "i": "👹",
+      "t": "Anime & manga talk",
+      "d": "Seasonal chats and recommendations."
+    },
+    {
+      "i": "🎧",
+      "t": "Music & VC hangouts",
+      "d": "Chill and vibe together."
+    },
+    {
+      "i": "📚",
+      "t": "Study & chill rooms",
+      "d": "Focus sessions and cozy corners."
+    },
+    {
+      "i": "🛡️",
+      "t": "Active, friendly staff",
+      "d": "Quick support, zero drama."
+    },
+    {
+      "i": "🌟",
+      "t": "Self-assignable roles",
+      "d": "Colors, pings and interest roles."
+    }
+  ],
+  "radio": {
+    "name": "Angels Abyss Radio",
+    "stream": ""
+  },
+  "events": [
+    {
+      "t": "Anime watch party",
+      "d": "2026-11-21T19:00:00Z",
+      "k": "Watch party",
+      "s": "Vote on the episode in the events channel."
+    },
+    {
+      "t": "Art & edit contest",
+      "d": "2026-11-28T17:00:00Z",
+      "k": "Contest",
+      "s": "Share your best piece for a chance at prizes."
+    },
+    {
+      "t": "Winter giveaway",
+      "d": "2026-12-20T18:00:00Z",
+      "k": "Giveaway",
+      "s": "Drops, prizes and a chat revive."
+    }
+  ],
+  "anime": [
+    {
+      "n": "That Time I Got Reincarnated as a Slime",
+      "g": "Fantasy",
+      "s": "Rimuru builds a nation of monsters."
+    },
+    {
+      "n": "Frieren: Beyond Journey’s End",
+      "g": "Fantasy",
+      "s": "A quiet, emotional adventure after the hero’s quest."
+    },
+    {
+      "n": "Spy x Family",
+      "g": "Comedy",
+      "s": "A fake family with real heart."
+    },
+    {
+      "n": "Jujutsu Kaisen",
+      "g": "Action",
+      "s": "Curses, fights and fantastic animation."
+    },
+    {
+      "n": "Haikyuu!!",
+      "g": "Sports",
+      "s": "Volleyball hype from start to finish."
+    },
+    {
+      "n": "Violet Evergarden",
+      "g": "Drama",
+      "s": "Letters, healing and beautiful visuals."
+    },
+    {
+      "n": "Your Name",
+      "g": "Romance",
+      "s": "A film that stays with you."
+    },
+    {
+      "n": "Demon Slayer",
+      "g": "Action",
+      "s": "Swordplay with stunning animation."
+    }
+  ],
+  "gallery": [
+    "red-glitch",
+    "red-wings",
+    "spider-boy",
+    "eye-flower",
+    "devil-b",
+    "devil-a",
+    "red-horns",
+    "manga-eyes"
+  ],
+  "servers": [],
+  "videos": [],
+  "staff": [
+    {
+      "n": "Admin",
+      "r": "Server admin",
+      "img": "red-horns"
+    },
+    {
+      "n": "Mod",
+      "r": "Moderator",
+      "img": "spider-boy"
+    },
+    {
+      "n": "Events",
+      "r": "Events team",
+      "img": "eye-flower"
+    },
+    {
+      "n": "Helper",
+      "r": "Community helper",
+      "img": "manga-eyes"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I join?",
+      "a": "Press Join Discord at the top, accept the invite and read the rules channel."
+    },
+    {
+      "q": "What are the main rules?",
+      "a": "Be kind, no hate or harassment, no spam or self-promo, keep NSFW out, and follow staff instructions."
+    },
+    {
+      "q": "How do I get roles?",
+      "a": "Pick colors, pings and interest roles yourself in the roles channel."
+    },
+    {
+      "q": "How do I enter giveaways and contests?",
+      "a": "Watch the events channel. Each post explains how to take part."
+    },
+    {
+      "q": "Can I request a song on the radio?",
+      "a": "Yes, use the music channels and the custom bot to play what you want."
+    },
+    {
+      "q": "I need help from staff.",
+      "a": "Ping a staff member or open a support request. We reply quickly."
+    }
+  ],
+  "profile": {
+    "name": "nomind0",
+    "user": "nomind0",
+    "id": "1530048224130240694",
+    "status": "online",
+    "badge": "Owner",
+    "about": "Hey, I’m the Owner! Please join our other network servers too, along with this main server.",
+    "roles": "Angel, Moonwalker, Staff, Admin, Mod",
+    "since": "Angels Abyss",
+    "playlist": "Otaku Garden",
+    "playlistUrl": "https://music.youtube.com/playlist?list=PLRdA8yHvXStI&si=r6j87KhDC5SpyqhV",
+    "avatar": "red-horns",
+    "banner": "red-wings"
+  },
+  "partners": [],
+  "partnerReq": [
+    "Friendly, welcoming community",
+    "Active members and staff",
+    "No hate, harassment or NSFW"
+  ],
+  "uploads": [],
+  "rules": [
+    {
+      "t": "Be kind and respectful",
+      "d": "Treat everyone the way you want to be treated."
+    },
+    {
+      "t": "No hate or harassment",
+      "d": "No hate speech, bullying or targeting people."
+    },
+    {
+      "t": "No spam or self-promo",
+      "d": "Do not advertise or flood channels. Ask staff about partnerships."
+    },
+    {
+      "t": "Keep NSFW out",
+      "d": "Keep everything safe for everyone."
+    },
+    {
+      "t": "Follow staff instructions",
+      "d": "Staff keep things friendly. If you disagree, ask politely or open a support request."
+    },
+    {
+      "t": "Follow Discord rules",
+      "d": "Follow the Discord Terms of Service and Community Guidelines."
+    }
+  ],
+  "spotlight": {
+    "show": "yes",
+    "label": "Member spotlight",
+    "name": "Featured member",
+    "user": "",
+    "note": "Staff pick someone who made the server better. Edit this in the admin panel.",
+    "img": "red-horns"
+  },
+  "music": {
+    "name": "",
+    "url": ""
+  },
+  "labels": {
+    "navFeatures": "Features",
+    "navRadio": "Radio",
+    "navEvents": "Events",
+    "navAnime": "Anime picks",
+    "navGallery": "Gallery",
+    "navNetwork": "Network",
+    "navVideos": "Videos",
+    "navStaff": "Staff",
+    "navRules": "Rules",
+    "navFaq": "FAQ",
+    "navPartners": "Partners",
+    "navJoin": "Join Discord",
+    "angelBtn": "Angel",
+    "devilBtn": "Devil",
+    "heroJoin": "Join the server",
+    "heroCopy": "Copy invite link",
+    "radioTitle": "24/7 radio",
+    "eventsTitle": "Events",
+    "eventsSub": "Times are shown in your local time.",
+    "animeTitle": "Anime picks",
+    "animeSub": "What the server is watching and recommending.",
+    "galleryTitle": "Gallery",
+    "gallerySub": "Tap a picture to view it bigger.",
+    "networkTitle": "Our network",
+    "networkSub": "Join our other servers too.",
+    "videosTitle": "Videos",
+    "staffTitle": "Meet the staff",
+    "staffSub": "Message us anytime on Discord.",
+    "rulesTitle": "Server rules",
+    "rulesSub": "Keep it friendly so everyone has a good time.",
+    "faqTitle": "FAQ"
+  },
+  "colorsDevil": {
+    "accent": "#d3122b",
+    "ice": "#ff6a3d",
+    "bg": "#0b0204",
+    "g1": "#8a0f1f",
+    "g2": "#2a0509",
+    "ink": "#fbeeee"
+  },
+  "colorsAngel": {
+    "accent": "#aeb9ca",
+    "ice": "#ffffff",
+    "bg": "#e9edf3",
+    "g1": "#ffffff",
+    "g2": "#d5dce8",
+    "ink": "#242632"
+  },
+  "artDevil": {
+    "hero": "devil-b",
+    "grow": "devil-a",
+    "join": "devil-b",
+    "bg": "devil-a"
+  },
+  "artAngel": {
+    "hero": "angel-b",
+    "grow": "angel-a",
+    "join": "angel-b",
+    "bg": "angel-a"
+  },
+  "show": {
+    "features": "yes",
+    "radio": "yes",
+    "events": "yes",
+    "anime": "yes",
+    "gallery": "yes",
+    "staff": "yes",
+    "rules": "yes",
+    "faq": "yes",
+    "grow": "yes",
+    "partner": "yes",
+    "join": "yes",
+    "liveStats": "yes"
+  },
+  "order": [
+    "features",
+    "radio",
+    "events",
+    "anime",
+    "gallery",
+    "spotlight",
+    "network",
+    "videos",
+    "staff",
+    "rules",
+    "faq",
+    "grow",
+    "partner"
+  ],
+  "fx": {
+    "trail": "yes",
+    "particles": "yes",
+    "video": "hero.mp4"
+  },
+  "share": {
+    "favicon": "red-horns",
+    "img": "red-wings",
+    "title": "",
+    "desc": "",
+    "url": ""
+  },
+  "blocks": []
+}
