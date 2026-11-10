@@ -185,9 +185,12 @@
     "devil-b",
     "devil-a",
     "red-horns",
-    "manga-eyes"
+    "manga-eyes",
+    "up-mwavykym"
   ],
-  "servers": [],
+  "servers": [
+    "https://discord.gg/ZQUtcpd2t"
+  ],
   "videos": [
     {
       "url": "https://youtu.be/Xs0Lxif1u9E?si=7EhF0YOASXqyifiY",
@@ -280,7 +283,8 @@
   "partnerReq": [
     "Friendly, welcoming community",
     "Active members and staff",
-    "No hate, harassment or NSFW"
+    "No hate, harassment or NSFW",
+    "50+ members"
   ],
   "uploads": [
     {
@@ -294,6 +298,14 @@
     {
       "k": "up-mwakwkfh",
       "u": "assets/up-mwakwkfh.jpg"
+    },
+    {
+      "k": "up-mwavykym",
+      "u": "assets/up-mwavykym.jpg"
+    },
+    {
+      "k": "up-mwaw2rpx",
+      "u": "assets/up-mwaw2rpx.jpg"
     }
   ],
   "rules": [
@@ -386,7 +398,7 @@
   "artDevil": {
     "hero": "devil-b",
     "grow": "devil-a",
-    "join": "devil-b",
+    "join": "up-mwaw2rpx",
     "bg": "devil-a"
   },
   "artAngel": {
