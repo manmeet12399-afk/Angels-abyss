@@ -46,6 +46,12 @@
       "t": "Custom Bot",
       "img": "spider-boy",
       "href": "#features"
+    },
+    {
+      "k": "Active staff",
+      "t": "Active staff",
+      "img": "devil-b",
+      "href": "@staff"
     }
   ],
   "features": [
