@@ -194,24 +194,24 @@
   "videos": [],
   "staff": [
     {
-      "n": "Admin",
-      "r": "Server admin",
-      "img": "silver-04"
+      "n": "Anos",
+      "r": " Admin, Adviser",
+      "img": "snow-rest"
     },
     {
-      "n": "Mod",
+      "n": "Drakeblade",
       "r": "Moderator",
       "img": "silver-09"
     },
     {
-      "n": "Events",
+      "n": "Angel",
       "r": "Events team",
       "img": "hori-blush"
     },
     {
-      "n": "Helper",
+      "n": "Rimuru",
       "r": "Community helper",
-      "img": "pillow-girl"
+      "img": "rimuru-slime"
     }
   ],
   "faq": [
@@ -252,13 +252,25 @@
     "playlist": "Otaku Garden",
     "playlistUrl": "https://music.youtube.com/playlist?list=PLRdA8yHvXStI&si=r6j87KhDC5SpyqhV",
     "avatar": "avatar",
-    "banner": "pink-elf"
+    "banner": "up-mwa3vshk"
   },
-  "partners": [],
+  "partners": [
+    {
+      "invite": "",
+      "name": "",
+      "note": "",
+      "img": ""
+    }
+  ],
   "partnerReq": [
     "Friendly, welcoming community",
     "Active members and staff",
     "No hate, harassment or NSFW"
   ],
-  "uploads": []
+  "uploads": [
+    {
+      "k": "up-mwa3vshk",
+      "u": "assets/up-mwa3vshk.jpg"
+    }
+  ]
 }
