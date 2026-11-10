@@ -113,7 +113,7 @@
   ],
   "radio": {
     "name": "Angels Abyss Radio",
-    "stream": ""
+    "stream": "https://youtu.be/Xs0Lxif1u9E?si=7EhF0YOASXqyifiY"
   },
   "events": [
     {
@@ -188,7 +188,12 @@
     "manga-eyes"
   ],
   "servers": [],
-  "videos": [],
+  "videos": [
+    {
+      "url": "https://youtu.be/Xs0Lxif1u9E?si=7EhF0YOASXqyifiY",
+      "title": "Suzume"
+    }
+  ],
   "staff": [
     {
       "n": "Third cheese",
@@ -326,8 +331,8 @@
     "img": "red-horns"
   },
   "music": {
-    "name": "",
-    "url": ""
+    "name": "Suzume",
+    "url": "https://youtu.be/Xs0Lxif1u9E?si=7EhF0YOASXqyifiY"
   },
   "labels": {
     "navFeatures": "Features",
