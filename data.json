@@ -190,7 +190,10 @@
     "silver-16",
     "silver-17"
   ],
-  "servers": [],
+  "servers": [
+    "https://discord.gg/rGHjJTwRn",
+    ""
+  ],
   "videos": [],
   "staff": [
     {
