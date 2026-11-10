@@ -191,24 +191,31 @@
   "videos": [],
   "staff": [
     {
-      "n": "Admin",
+      "n": "Three cheese",
       "r": "Server admin",
-      "img": "red-horns"
+      "img": "up-mwakunkm"
     },
     {
-      "n": "Mod",
+      "n": "Anos",
       "r": "Moderator",
       "img": "spider-boy"
     },
     {
-      "n": "Events",
+      "n": "The Angel",
       "r": "Events team",
-      "img": "eye-flower"
+      "img": "angel-b"
     },
     {
-      "n": "Helper",
+      "n": "Amelia The chair",
       "r": "Community helper",
       "img": "manga-eyes"
+    },
+    {
+      "n": "Rimuru tempest",
+      "r": "The Guardian ",
+      "img": "up-mwakwkfh",
+      "pos": "top",
+      "fit": "whole"
     }
   ],
   "faq": [
@@ -238,7 +245,7 @@
     }
   ],
   "profile": {
-    "name": "nomind0",
+    "name": "Demonic Angel",
     "user": "nomind0",
     "id": "1530048224130240694",
     "status": "online",
@@ -249,7 +256,7 @@
     "playlist": "Otaku Garden",
     "playlistUrl": "https://music.youtube.com/playlist?list=PLRdA8yHvXStI&si=r6j87KhDC5SpyqhV",
     "avatar": "red-horns",
-    "banner": "red-wings"
+    "banner": "manga-eyes"
   },
   "partners": [],
   "partnerReq": [
@@ -261,6 +268,14 @@
     {
       "k": "up-mwakmmru",
       "u": "assets/up-mwakmmru.jpg"
+    },
+    {
+      "k": "up-mwakunkm",
+      "u": "assets/up-mwakunkm.jpg"
+    },
+    {
+      "k": "up-mwakwkfh",
+      "u": "assets/up-mwakwkfh.jpg"
     }
   ],
   "rules": [
@@ -292,8 +307,8 @@
   "spotlight": {
     "show": "yes",
     "label": "Member spotlight",
-    "name": "Featured member",
-    "user": "",
+    "name": "Best Staff",
+    "user": "Demonic Angel",
     "note": "Staff pick someone who made the server better. Edit this in the admin panel.",
     "img": "red-horns"
   },
@@ -410,10 +425,10 @@
       "title": "Also Join",
       "text": "Also join true dragon domain from our network 😀",
       "img": "up-mwakmmru",
-      "layout": "left",
+      "layout": "top",
       "btn": "",
       "link": "",
-      "nav": "no",
+      "nav": "yes",
       "show": "yes"
     }
   ]
