@@ -196,22 +196,22 @@
     {
       "n": "Anos",
       "r": " Admin, Adviser",
-      "img": "snow-rest"
+      "img": "bg-dusk"
     },
     {
       "n": "Drakeblade",
       "r": "Moderator",
-      "img": "silver-09"
+      "img": "up-mwa41nai"
     },
     {
       "n": "Angel",
       "r": "Events team",
-      "img": "hori-blush"
+      "img": "up-mwa40azy"
     },
     {
       "n": "Rimuru",
       "r": "Community helper",
-      "img": "rimuru-slime"
+      "img": "up-mwa3zz8o"
     }
   ],
   "faq": [
@@ -272,6 +272,22 @@
     {
       "k": "up-mwa3vshk",
       "u": "assets/up-mwa3vshk.jpg"
+    },
+    {
+      "k": "up-mwa3zz8o",
+      "u": "assets/up-mwa3zz8o.jpg"
+    },
+    {
+      "k": "up-mwa40azy",
+      "u": "assets/up-mwa40azy.jpg"
+    },
+    {
+      "k": "up-mwa41nai",
+      "u": "assets/up-mwa41nai.jpg"
+    },
+    {
+      "k": "up-mwa41wbq",
+      "u": "assets/up-mwa41wbq.jpg"
     }
   ]
 }
