@@ -212,6 +212,11 @@
       "n": "Rimuru",
       "r": "Community helper",
       "img": "up-mwa3zz8o"
+    },
+    {
+      "n": "Rimuru",
+      "r": "Guardian",
+      "img": "up-mwa5b3s6"
     }
   ],
   "faq": [
@@ -288,6 +293,10 @@
     {
       "k": "up-mwa41wbq",
       "u": "assets/up-mwa41wbq.jpg"
+    },
+    {
+      "k": "up-mwa5b3s6",
+      "u": "assets/up-mwa5b3s6.jpg"
     }
   ]
 }
