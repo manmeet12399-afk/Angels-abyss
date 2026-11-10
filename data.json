@@ -106,7 +106,7 @@
   ],
   "radio": {
     "name": "Anime Paradox Radio",
-    "stream": ""
+    "stream": "https://youtu.be/Xs0Lxif1u9E?si=mr5tMWTxsNNRGjvp"
   },
   "events": [
     {
@@ -199,7 +199,12 @@
     "https://discord.gg/rGHjJTwRn",
     ""
   ],
-  "videos": [],
+  "videos": [
+    {
+      "url": "https://youtu.be/Xs0Lxif1u9E?si=mr5tMWTxsNNRGjvp",
+      "title": "Suzume"
+    }
+  ],
   "staff": [
     {
       "n": "Anos",
